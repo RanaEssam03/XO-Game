@@ -1,2 +1,2 @@
 # XO-Game
-This is XO game version using java 
+This is the XO game version using java 
