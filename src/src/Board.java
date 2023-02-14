@@ -11,7 +11,8 @@ public Board(int size){
     }
 }
 public Boolean update_board(int x , int y , char symbol){
-    if( x < n && x>-1 && y<n && y>-1){
+
+    if( x > n-1 || x<-1 || y>n-1 || y<-1){
          System.out.println("Positions out of Range!..Please Try Again");
          return false;
     }
@@ -23,7 +24,19 @@ public Boolean update_board(int x , int y , char symbol){
     return true;
 }
 public void display_board(){
+    System.out.println("---------------------------------------------------------");
+
+    System.out.print("  ");
+
     for(int i=0;i<n;i++){
+        System.out.print(i);
+        System.out.print(' ');
+    }
+    System.out.println();
+
+    for(int i=0;i<n;i++){
+        System.out.print(i);
+        System.out.print(' ');
         for(int j=0;j<n;j++){
             System.out.print(grid[i][j]);
             System.out.print(' ');
