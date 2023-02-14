@@ -59,17 +59,24 @@ public Boolean is_winner(){
         }
     }
     char symbol = grid[0][0];
+    Boolean ok = true;
     for(int i=1;i<n;i++){
-        if(symbol != '-' && grid[i][i] == symbol){
-            return true;
+        if(symbol == '-' || grid[i][i] != symbol){
+            ok = false;
         }
     }
+    if(ok)
+        return true;
+
     symbol = grid[0][2];
+    ok = true;
     for(int i = 1 ,j=1 ; i<n && j>=0 ; i++,j--){
-        if(symbol != '-' && grid[i][j] == symbol){
-            return true;
+        if(symbol == '-' || grid[i][j] != symbol){
+            ok = false;
         }
     }
+    if(ok)
+        return true;
     return false;
 
 }
