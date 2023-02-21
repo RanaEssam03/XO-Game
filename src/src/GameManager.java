@@ -13,7 +13,7 @@ public class GameManager {
     public void run(){
         System.out.println("\t WELCOME TO XO GAME!!");
 
-        Board board = new Board(3);
+        XO_Board board = new XO_Board(3);
         Scanner myObject = new Scanner(System.in);
         Player [] players = {new Player(), new Player()};
         for (int i = 0; i<2 ; i++)
