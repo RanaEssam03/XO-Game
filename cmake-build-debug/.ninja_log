@@ -1,0 +1,6 @@
+# ninja log v5
+15	331	6988700675639975	CMakeFiles/xo_chat_gpt.dir/player.cpp.obj	93c5367b2c450903
+5	783	6988714825465519	CMakeFiles/xo_chat_gpt.dir/main.cpp.obj	658c2a6d1184c3f8
+10	479	6988700677120023	CMakeFiles/xo_chat_gpt.dir/game.cpp.obj	fadb5addb563e1a8
+6	603	6988700678340156	CMakeFiles/xo_chat_gpt.dir/board.cpp.obj	50cf4b7bd35e9e18
+784	994	6988714827555317	xo_chat_gpt.exe	dd15a061e1b57ada

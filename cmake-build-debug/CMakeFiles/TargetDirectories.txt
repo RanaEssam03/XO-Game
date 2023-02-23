@@ -1,0 +1,3 @@
+D:/FCAI/Level2 second term/intro_to_software/A1/xo_chat_gpt/cmake-build-debug/CMakeFiles/xo_chat_gpt.dir
+D:/FCAI/Level2 second term/intro_to_software/A1/xo_chat_gpt/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FCAI/Level2 second term/intro_to_software/A1/xo_chat_gpt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
